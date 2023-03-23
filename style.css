@@ -49,7 +49,7 @@
 
 .sobre {
     margin: 0 12rem 0 12rem;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     gap: 5%;
@@ -58,22 +58,55 @@
 
 }
 
-h3 {
+.h3Sobre {
     color: var(--cor-secundária);
     font-size: 1rem;
     font-weight: 600;
 }
 
-h1 {
+.h1Sobre {
     color: var(--cor-primaria);
     font-family: var(--fonte-textos);
     font-size: 3rem;
     font-weight: 600;
 }
-p {
+.pSobre {
     font-size: 1.25rem;
     font-family: var(--fonte-textos);
     text-align: center;
     margin: 3rem 0 0 0;
     color: var(--cor-terciaria);
  }
+
+.infos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 12rem 0 12rem;
+}
+
+.info-one {
+    margin: 0 3.5rem;
+}
+
+.infoDestaque {
+    font-family: var(--fonte-textos);
+    color: var(--cor-secundária);
+    font-size: 3.75rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.infoTitulos {
+    font-family: var(--fonte-textos);
+    color: var(--cor-primaria);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.infosTexto {
+    font-family: var(--fonte-textos);
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
