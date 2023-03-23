@@ -15,7 +15,7 @@
 .cabeçalho {
     display: grid;
     grid-template-columns: 20% 50% 30%;
-    margin: 2rem 0 0 12rem;
+    margin: 2rem 0 5rem 12rem;
     align-items: center;
 }
 
@@ -46,3 +46,32 @@
     border-radius: 8%;
 
 }
+
+.sobre {
+    margin: 0 12rem 0 12rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    text-align: center;
+    font-family: var(--fonte-textos);
+
+}
+
+h3 {
+    color: var(--cor-secundária);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    font-size: 3rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 3rem 0 0 0;
+    color: var(--cor-terciaria);
+ }
