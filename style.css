@@ -14,14 +14,14 @@
 
 .cabeçalho {
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 20% 60% 20%;
     margin: 2rem 0 5rem 12rem;
     align-items: center;
 }
 
 .listaAncoras {
     display: flex;
-    gap: 5%;
+    gap: 5.5%;
 }
 
 .textoAncoras {
@@ -66,11 +66,13 @@ h3 {
 
 h1 {
     color: var(--cor-primaria);
+    font-family: var(--fonte-textos);
     font-size: 3rem;
     font-weight: 600;
 }
 p {
     font-size: 1.25rem;
+    font-family: var(--fonte-textos);
     text-align: center;
     margin: 3rem 0 0 0;
     color: var(--cor-terciaria);
