@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin: 2rem 3rem;
+    align-items: center;
+
+
+}
+
+.listaAncoras {
+    display: flex;
+    gap: 5%;   
+}
