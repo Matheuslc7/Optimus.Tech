@@ -15,8 +15,12 @@
 .cabeçalho {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    margin: 2rem 3rem 5rem 11rem;
+    margin: 2rem 5rem 5rem 15rem;
     align-items: center;
+}
+
+.logo {
+    width: 50%;
 }
 
 .listaAncoras {
@@ -48,7 +52,7 @@
 }
 
 .sobre {
-    margin: 0 12rem 0 12rem;
+    margin: 0 15rem 0 15rem;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -82,8 +86,8 @@
 .infos {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 0 7rem 0 7rem;
-    height: 50vh;
+    margin: 0 10rem 0 12rem;
+    height: 40vh;
 }
 
 .info-one {
@@ -132,8 +136,8 @@
     justify-content: center;
     font-family: var(--fonte-textos);
     color: var(--cor-secundária);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 600;
     background-color: rgba(142, 36, 36, 0.05);
     border-radius: 1rem;
     padding: 0.25rem 0.75rem;
