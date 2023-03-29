@@ -10,4 +10,4 @@
 <p> day 7 of 7 ✔️ </p>
 
 
-### Para comparar o projeto com o que fiz <a href="https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0-1&t=r6jnF1f0NLkcCjvs-0">Clique aqui.</a>
+### Para comparar o projeto com o que fiz <a href="https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0-1&t=r6jnF1f0NLkcCjvs-0" target="_blank">Clique aqui.</a>
