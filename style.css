@@ -5,6 +5,7 @@
     --cor-primaria: #101828;
     --cor-secundária: #8e2424;
     --cor-terciaria: #667085;
+    --cor-cinza: #EAECF0;
 }
 
 * {
@@ -146,4 +147,42 @@
 
 .divulgaH3 {
     margin: 1rem 0 4rem 0;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 25rem;
+}
+
+.tituloDesign {
+    font-family: var(--fonte-textos);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.vagaDesigner{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid var(--cor-cinza);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-family: var(--fonte-textos);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.infoDesigner {
+    display: flex;
+    gap: 2rem;
+    font-family: var(--fonte-textos);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+
+.ux {
+    margin-bottom: 2rem;
 }
